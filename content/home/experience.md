@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Research Experience
 subtitle:
 
 # Date format for experience
@@ -22,29 +22,39 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Learning and Brain Development Lab
+    company: Graduate Student
+    company_url: 'https://lbdlab.tulane.edu/'
+    company_logo: lbd-logo.png
+    location: New Orleans, LA
+    date_start: '2017-08-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description: PI: Dr. Julie Markant
         
-        * Analysing
-        * Modelling
-        * Deploying
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
+  - title: Brain, Cognition, and Development Lab
+    company: Research Assistant (Honors Thesis)
+    company_url: 'https://bcdlab.psych.ufl.edu/'
+    company_logo: bcd-logo.png
+    location: Gainesville, FL
     date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
-
+    date_end: '2017-05-01'
+    description: PI: Dr. Julie Markant
+        
+  - title: Rowland Lab
+    company: Research Assistant
+    location: Gainesville, FL
+    date_start: '2013-08-01'
+    date_end: '2017-05-01'
+    description: PI: Dr. Neil Rowland
+        
+  - title: Dotson Lab
+    company: Research Associate
+    location: Gainesville, FL
+    date_start: '2016-01-01'
+    date_end: '2017-05-01'
+    description: PI: Dr. C. Shawn Dotson
+    
 design:
   columns: '2'
 ---
